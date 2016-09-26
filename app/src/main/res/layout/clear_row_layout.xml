@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+
+    >
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0"
+        >
+
+        <TableRow>
+            <TextView
+                android:text="itemname"
+                android:id="@+id/tvItemName"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorText"
+                android:padding="10sp"
+                android:layout_margin="10sp"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx"
+                android:id="@+id/tvItemQuantity"
+                android:textSize="20sp"
+                android:textStyle="italic"
+
+                android:layout_margin="10sp"
+                android:padding="10sp"
+                android:layout_toLeftOf="@id/tvItemName"
+                />
+
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:text="Delete"
+                android:id="@+id/btnItemDelete"
+                android:padding="5sp"
+                android:background="@color/colorBackgroundHilight"
+                android:textColor="@color/colorText"
+                android:layout_margin="10sp"
+                android:width="70sp"
+
+
+                />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <!--
+android:layout_alignParentRight="true"
+-->
+
+</LinearLayout>
+
